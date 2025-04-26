@@ -5,7 +5,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        passwd="jsaishere",
+        passwd="<your_password>",
         database="project"
     )
 
